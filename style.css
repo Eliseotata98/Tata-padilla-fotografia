@@ -1,0 +1,82 @@
+/* Estilos de la pagina */
+body{
+    background-color: rgb(255, 250, 224);
+}
+
+.logo-index{
+    width: 100px;
+    padding: 5px 0;
+}
+
+.div a:active{
+    color: red;
+}
+
+.logo-header{
+    width: 600px;
+}
+
+.estilos-brand{
+    color: white;
+}
+
+/* Responsive Web Design */
+@media(max-width: 632px){
+    .logo-header{
+        width: 300px;
+    }
+}
+
+
+/* Estilos de la pagina principal index.html */
+.banner-image {
+    background-image: url('img/background.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+/* Estilos de servicios */
+.banner-image-servicios{
+    background-image: url('./img/background-servicios.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+/* Estilo de la pagina CONTACTO */
+.banner-image-contacto{
+    background-image: url('./img/background-contacto-grande.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+/* Estilos de la pagina SOBRE MI */
+.sobre-mi{
+    background-image: url('img/background-sobre-mi.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.biografia {
+    text-align: center;
+}
+
+@media(max-width: 791px){
+    .biografia {
+        width: 300px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
